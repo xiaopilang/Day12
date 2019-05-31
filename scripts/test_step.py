@@ -19,7 +19,7 @@ class TestStep:
     @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
     def test_003(self):
         allure.attach("我是标题", "对步骤三的描述")
-        print("测试用例3")
+        print("测试用例3,测试轮训")
         assert False
 
     @pytest.allure.severity(pytest.allure.severity_level.NORMAL)
